@@ -6,7 +6,7 @@ Add-Type -Name win -MemberDefinition '[DllImport("user32.dll")] public static ex
 $target = "Fallout4"
 
 #this script will check every 60 seconds if the abovenamed process is running
-#if it is, it will launch caffeine, wait for the game to end, then quit caffeine
+#if it is, it will launch caffeine, wait for the process to end, then quit caffeine
 $process = Get-Process | Where-Object {$_.ProcessName -eq $target}
 while ($true)
 {

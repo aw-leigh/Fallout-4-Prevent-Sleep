@@ -10,7 +10,7 @@ Every 60 seconds, the script checks if a process named "Fallout4" is running, an
 ### Setup
 1. Download caffeine.exe from the above link and place it in whatever directory you like 
 2. Download Fallout4NoSleep.ps1 and place it in whatever directory you like
-3. Open Fallout4NoSleep.ps1 in your favorite text editor (notepad works file) and replace "ENTER_FILEPATH_HERE\caffeine.exe" with the path to the directory that holds caffeine. Be sure to leave the double quotes ("") in.
+3. Open Fallout4NoSleep.ps1 in your favorite text editor (notepad works fine) and replace "ENTER_FILEPATH_HERE\caffeine.exe" with the path to the directory that holds caffeine. Be sure to leave the double quotes ("") in.
 4. Open the windows startup folder (Press Win+R and enter "shell:startup")
 5. Right click and select New -> Shortcut
 6. In the "Type the location of this item:" box, enter the below text all on one line (swapping 'FILEPATH' for the actual path to Fallout4NoSleep.ps1):
